@@ -13,6 +13,7 @@
 		B3853D79278A330200380101 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3853D77278A330200380101 /* Main.storyboard */; };
 		B3853D7B278A330400380101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3853D7A278A330400380101 /* Assets.xcassets */; };
 		B3853D7E278A330400380101 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3853D7C278A330400380101 /* LaunchScreen.storyboard */; };
+		B3EA7BC82794C35600E8625D /* AuthenticationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EA7BC72794C35600E8625D /* AuthenticationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B3853D7A278A330400380101 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3853D7D278A330400380101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3853D7F278A330400380101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3EA7BC72794C35600E8625D /* AuthenticationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		B3853D70278A330200380101 /* PasswordManager-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				B3EA7BC62794C2F000E8625D /* Models */,
 				B3853D71278A330200380101 /* AppDelegate.swift */,
 				B3853D73278A330200380101 /* SceneDelegate.swift */,
 				B3853D75278A330200380101 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				B3853D7F278A330400380101 /* Info.plist */,
 			);
 			path = "PasswordManager-iOS";
+			sourceTree = "<group>";
+		};
+		B3EA7BC62794C2F000E8625D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B3EA7BC72794C35600E8625D /* AuthenticationModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3853D76278A330200380101 /* ViewController.swift in Sources */,
+				B3EA7BC82794C35600E8625D /* AuthenticationModel.swift in Sources */,
 				B3853D72278A330200380101 /* AppDelegate.swift in Sources */,
 				B3853D74278A330200380101 /* SceneDelegate.swift in Sources */,
 			);
